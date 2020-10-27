@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/maximehutinet.github.io/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/maximehutinet.github.io/static/js/main.5702e038.chunk.js",
-    "main.js.map": "/maximehutinet.github.io/static/js/main.5702e038.chunk.js.map",
+    "main.css": "/maximehutinet.github.io/static/css/main.751d3dd3.chunk.css",
+    "main.js": "/maximehutinet.github.io/static/js/main.09912e88.chunk.js",
+    "main.js.map": "/maximehutinet.github.io/static/js/main.09912e88.chunk.js.map",
     "runtime-main.js": "/maximehutinet.github.io/static/js/runtime-main.49ef776f.js",
     "runtime-main.js.map": "/maximehutinet.github.io/static/js/runtime-main.49ef776f.js.map",
     "static/js/2.925ffdb0.chunk.js": "/maximehutinet.github.io/static/js/2.925ffdb0.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.ff64b61e.chunk.js": "/maximehutinet.github.io/static/js/3.ff64b61e.chunk.js",
     "static/js/3.ff64b61e.chunk.js.map": "/maximehutinet.github.io/static/js/3.ff64b61e.chunk.js.map",
     "index.html": "/maximehutinet.github.io/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/maximehutinet.github.io/static/css/main.ab7136cd.chunk.css.map",
+    "static/css/main.751d3dd3.chunk.css.map": "/maximehutinet.github.io/static/css/main.751d3dd3.chunk.css.map",
     "static/js/2.925ffdb0.chunk.js.LICENSE.txt": "/maximehutinet.github.io/static/js/2.925ffdb0.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/maximehutinet.github.io/static/media/logo.103b5fa1.svg"
+    "static/media/index.css": "/maximehutinet.github.io/static/media/Metropolis-Regular.67a1988d.otf",
+    "static/media/logo.73c7f599.svg": "/maximehutinet.github.io/static/media/logo.73c7f599.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.49ef776f.js",
     "static/js/2.925ffdb0.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.5702e038.chunk.js"
+    "static/css/main.751d3dd3.chunk.css",
+    "static/js/main.09912e88.chunk.js"
   ]
 }
