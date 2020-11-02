@@ -1,10 +1,56 @@
 .App {
   padding: 0rem 4rem;
   color: #7A7A7A;
+  font-family: Avenir;
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .App {
+      padding: 0rem 1rem;
+    }
+
+}
+
+p {
+  font-size: 1.125rem;
+}
 h1 {
   color: #075F9D;
+  font-size: 2rem;
+  margin-bottom: 5%!important;
+}
+
+#hi-there {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+#name {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: #075F9D;
+  display: block;
+  margin-bottom: 5%;
+}
+
+#contact-me-btn {
+  margin-top: 3%;
+  border-color: #075F9D;
+  color: #075F9D;
+}
+
+#contact-me-btn:hover {
+  border-color: #075F9D;
+  background-color: #075F9D;
+  color: white;
+}
+
+#home{
+  margin: 5% 0 5% 0;
 }
 
 .App-logo {
@@ -32,6 +78,11 @@ h1 {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  position: relative;
+}
+
+.nav-items {
+  position: absolute;
 }
 
 .nav-item {
