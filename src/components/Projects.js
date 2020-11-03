@@ -4,7 +4,7 @@ function Projects(props) {
     return (
       // Render a Thumbnail component
       <div className="projects">
-        <h1>Some of my projects.</h1>
+        <h1 className="section">Some of my projects.</h1>
       </div>
     )
   }
