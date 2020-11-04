@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import max from '../img/Max_Round.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTerminal } from '@fortawesome/free-solid-svg-icons'
+import TechStack from './TechStack.js'
  
 function About(props) {
   return (
@@ -23,52 +24,16 @@ function About(props) {
             </p>
             <Row>
               <Col>
-                <ul className="tech-stack-list">
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    Python
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    C#
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    Java
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    JavaScript
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    HTML & CSS
-                  </li>
-                </ul>
+                <TechStack
+                  technos={['Python', 'C#', 'Java', 'JavaScript', 'HTML & CSS']}
+                >
+                </TechStack>
               </Col>
               <Col>
-                <ul className="tech-stack-list">
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    ReactJS
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    NodeJS
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    Django
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    Flask
-                  </li>
-                  <li>
-                    <FontAwesomeIcon className="blue-color" icon={faTerminal} />
-                    Spring Boot
-                  </li>
-                </ul>
+                <TechStack
+                  technos={['ReactJS', 'NodeJS', 'Django', 'Flask', 'Spring Boot']}
+                >
+                </TechStack>
               </Col>
             </Row>
             </Col>

@@ -124,13 +124,65 @@ h1.section {
 .tech-stack-list {
   list-style-type: none;
   padding: 0;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-family: Menlo;
 }
 
 .tech-stack-list li {
-  padding-bottom: 2vh;
+  padding-bottom: 2.1vh;
 }
 
 .tech-stack-list svg {
   margin-right: 3%;
+}
+
+/*
+ * Project section
+ */
+
+ .project-img {
+   max-width: 100%;
+   margin-top: 2vh;
+ }
+
+ .project {
+   margin : 0 0 5vw 0;
+ }
+
+ .project .col-sm-5 {
+   padding-left: 0;
+ }
+
+.project-descr p {
+  font-size: 0.9rem;
+  color: white;
+  padding: 2vw;
+}
+
+.project-descr {
+  background-color: #075F9D;
+  border-radius: 1rem;
+}
+
+h2.project-title {
+  font-size: 1.5rem;
+  color: #FFAC50;
+}
+
+.project-github .svg-inline--fa.fa-w-16 {
+  width: 3rem;
+  height: 3rem;
+  color: black;
+}
+
+.project-github .svg-inline--fa.fa-w-16:hover {
+  color: #075F9D;
+}
+
+.project-client-img {
+  max-width: 100%;
+}
+
+.project-client-img {
+  padding-bottom: 5vh;
 }
