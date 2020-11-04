@@ -9,8 +9,8 @@ import hiketracker from "../img/hiketracker.png"
 function Projects(props) {
     return (
       // Render a Thumbnail component
-      <div className="projects">
-        <h1 className="section">Some of my projects.</h1>
+      <section className="projects">
+        <h1>Some of my projects.</h1>
         {listProject.map(p => 
           <Project 
             title={p.title} 
@@ -21,7 +21,7 @@ function Projects(props) {
             img={p.img}
             client={p.client}
           ></Project> )}
-      </div>
+      </section>
     )
   }
 

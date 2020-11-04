@@ -4,11 +4,11 @@ import Row from 'react-bootstrap/Row';
  
 function Credits(props) {
   return (
-    <Row className="footer">
+    <section className="footer gray-background">
       <Col align="center">
         <a href={props.gitrepo} target="_blank">Built & Designed by <span className="highlight">Maxime Hutinet</span> with <span className="highlight">ReactJS</span></a>
       </Col>
-    </Row>
+    </section>
   );
 }
  

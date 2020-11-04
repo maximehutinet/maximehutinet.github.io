@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 
 function Home(props) {
     return (
-        <div id="home">
+        <section id="home">
             <p id="hi-there">Hi there, my name is</p>
             <TypeIt id="name" className="blue-color">Maxime Hutinet.</TypeIt>
             
@@ -20,7 +20,7 @@ function Home(props) {
 >
                 <Button id="contact-me-btn" variant="outline-primary">Contact me</Button>
             </Link>
-        </div>
+        </section>
     )
 }
 

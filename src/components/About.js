@@ -9,8 +9,8 @@ import TechStack from './TechStack.js'
  
 function About(props) {
   return (
-    <div id="about">
-      <h1 className="section">About me.</h1>
+    <section id="about" className="gray-background">
+      <h1>About me.</h1>
           <Row>
             <Col sm={8}> 
             <p>Howdy! I’m a <span className="highlight">software engineer</span> based in Geneva, Switzerland.</p>
@@ -43,7 +43,7 @@ function About(props) {
 
           </Row>
         
-    </div>
+    </section>
   )
 }
  
