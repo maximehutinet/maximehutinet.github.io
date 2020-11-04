@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Button from 'react-bootstrap/Button';
+import resume from '../files/CV.pdf'
 
-export default class Navbar extends Component {
+export default class Nav extends Component {
     render() {
         return (
             <nav className="nav" id="navbar">
@@ -44,7 +46,7 @@ export default class Navbar extends Component {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a>Resume</a>
+                            <Button className="blue-btn" variant="outline-primary" href={resume} target="_blank">Resume</Button>
                         </li>
                     </ul>
                 </div>

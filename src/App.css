@@ -25,38 +25,12 @@ h1.section {
   margin-bottom: 5%!important;
 }
 
-#hi-there {
-  font-size: 1.75rem;
-  margin: 0;
-}
+/*
+ * Color scheme
+ */
 
-#name {
-  font-size: 3.25rem;
-  font-weight: bold;
-  color: #075F9D;
-  display: block;
-  margin-bottom: 5%;
-}
-
-#contact-me-btn {
-  margin-top: 3%;
-  border-color: #075F9D;
-  color: #075F9D;
-}
-
-#contact-me-btn:hover {
-  border-color: #075F9D;
-  background-color: #075F9D;
-  color: white;
-}
-
-#home{
-  margin: 5vh 0 10vh 0;
-}
-
-.App-logo {
-  height: 80vmin;
-  pointer-events: none;
+ .blue-color {
+  color:#075F9D;
 }
 
 .highlight {
@@ -64,10 +38,30 @@ h1.section {
   font-weight: bold;
 }
 
-.nav {
+
+/*
+ * Buttons
+ */
+
+ .btn-outline-primary {
+  border-color: #075F9D;
+  color: #075F9D;
+}
+
+.btn-outline-primary:hover {
+  border-color: #075F9D;
+  background-color: #075F9D;
+  color: white;
+}
+
+/*
+ * Navbar
+ */
+
+ .nav {
   top: 0px;
   width: 100%;
-  height: 80px;
+  height: 150px;
   z-index: 1000;
 }
 
@@ -79,7 +73,6 @@ h1.section {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  position: relative;
 }
 
 .nav-items {
@@ -96,20 +89,48 @@ h1.section {
   cursor: pointer;
 }
 
+/*
+ * Home section
+ */
+
+#home{
+  margin: 20vh 0 30vh 0;
+}
+
+#hi-there {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+#name {
+  font-size: 3.25rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5%;
+}
+
+#contact-me-btn {
+  margin-top: 3%;
+}
+
+/*
+ * About section
+ */
+
+#about{
+  margin: 20vh 0 30vh 0;
+}
+
 .tech-stack-list {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.125rem;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.125rem;
 }
 
 .tech-stack-list li {
-  padding-bottom: 3%;
+  padding-bottom: 2vh;
 }
 
 .tech-stack-list svg {
   margin-right: 3%;
-}
-
-.blue-color {
-  color:#075F9D;
 }
