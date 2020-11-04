@@ -1,7 +1,7 @@
 .App {
-  padding: 0rem 10vw;
   color: #7A7A7A;
   font-family: Avenir;
+  padding: 0rem 10vw;
 }
 
 @media only screen 
@@ -142,10 +142,13 @@ h1.section {
 
  .project-img {
    max-width: 100%;
-   margin-top: 2vh;
+   max-height: 500px;
+   margin: 2vh auto 0 auto;
+   display: block;
+   
  }
 
- .project {
+ .project:not(:last-child) {
    margin : 0 0 5vw 0;
  }
 
@@ -185,4 +188,26 @@ h2.project-title {
 
 .project-client-img {
   padding-bottom: 5vh;
+}
+
+/*
+ * Contact section
+ */
+
+ #contact{
+  margin: 20vh 0 30vh 0;
+}
+
+/*
+ * Footer 
+ */
+
+ .footer {
+   min-height: 70px;
+ }
+
+ .footer a {
+  font-size: 0.9rem;
+  font-family: Menlo;
+  color: #075F9D;
 }

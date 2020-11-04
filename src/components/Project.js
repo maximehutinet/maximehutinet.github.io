@@ -3,13 +3,11 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faTerminal } from '@fortawesome/free-solid-svg-icons'
 import TechStack from './TechStack.js'
 
  
 function Project(props) {
     return (
-      <div className="project">
         <Row className="project">
             <Col sm={5}>
                 <h2 className="project-title">
@@ -49,9 +47,6 @@ function Project(props) {
                 <img className="project-img" src={props.img} alt="" />
             </Col>
         </Row>
-        
-        
-      </div>
     );
   }
    

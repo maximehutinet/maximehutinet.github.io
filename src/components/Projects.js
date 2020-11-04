@@ -1,9 +1,10 @@
 import React from "react"
 import Project from "./Project.js"
-import hug from "../img/HUG.png"
+import host from "../img/host.png"
 import huglogo from "../img/hug-logo.png"
 import hesso from "../img/HES-SO.png"
 import hepialogo from "../img/hepia-logo.png"
+import hiketracker from "../img/hiketracker.png"
  
 function Projects(props) {
     return (
@@ -31,23 +32,24 @@ const listProject = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. at? Sed fortuna fortis; Nihil opus est exemplis hoc facere longius. At certe gravius. Quid de Pythagora? Sed ea mala virtuti magnitudine obruebantur. Duo Reges: constructio interrete. Tollenda est atque extrahenda radicitus. Verum hoc idem saepe faciamus. Beatum, inquit. Nihil opus est exemplis hoc facere longius.', 
     technos: ['Python', 'C#', 'Flask', 'Unity', 'SQLite'], 
     github: 'ff',
-    img: hug,
+    img: host,
     client: [huglogo, hepialogo],
   },
   {
-    title: 'EventFinder', 
-    subtitle: 'Web App to find event around you',
+    title: 'Hike Tracker', 
+    subtitle: 'Android App to track hikes and get stats about them',
     description: 'Amazing', 
-    technos: ['Python', 'C#'], 
+    technos: ['Android', 'Kotlin', 'SQLite'], 
+    img: hiketracker,
     github: 'https://github.com/maximehutinet/EventFinder',
   },
   {
     title: 'HES-SO.NET', 
     subtitle: 'Location based social network',
     description: 'Amazing', 
-    technos: ['Python', 'Django', 'HTML/CSS', 'JavaScript', 'PostgreSQL'], 
+    technos: ['Python', 'Django', 'HTML/CSS', 'JavaScript', 'PostgreSQL', 'Docker', 'JWT'], 
     github: 'https://github.com/maximehutinet/HES-SO.NET',
-    img: [hesso]
+    img: hesso
   },
 ];
    

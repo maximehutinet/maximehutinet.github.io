@@ -5,6 +5,7 @@ import About from './About.js';
 import Contact from './Contact.js';
 import Nav from './Nav';
 import Home from './Home';
+import Credits from './Credits'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Credits 
+        gitrepo={"https://github.com/maximehutinet/maximehutinet.github.io"}
+      />
     </div>
   );
 }
