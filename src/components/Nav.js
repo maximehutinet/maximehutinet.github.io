@@ -15,7 +15,7 @@ export default class Nav extends Component {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={-100}
+                                offset={50}
                                 duration={1000}
                             >
                                 About
@@ -27,7 +27,7 @@ export default class Nav extends Component {
                                 to="projects"
                                 spy={true}
                                 smooth={true}
-                                offset={-100}
+                                offset={50}
                                 duration={1000}
                             >
                                 Projects
@@ -39,7 +39,7 @@ export default class Nav extends Component {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-100}
+                                offset={50}
                                 duration={1000}
                             >
                                 Contact

@@ -1,10 +1,6 @@
 import React from "react"
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import max from '../img/Max_Round.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTerminal } from '@fortawesome/free-solid-svg-icons'
 import TechStack from './TechStack.js'
  
 function About(props) {
@@ -25,24 +21,19 @@ function About(props) {
             <Row>
               <Col>
                 <TechStack
-                  technos={['Python', 'C#', 'Java', 'JavaScript', 'HTML & CSS']}
+                  technos={['Java', 'C#', 'Python', 'JavaScript', 'HTML & CSS']}
                 >
                 </TechStack>
               </Col>
               <Col>
                 <TechStack
-                  technos={['ReactJS', 'NodeJS', 'Django', 'Flask', 'Spring Boot']}
+                  technos={['Angular', 'ReactJS', 'NodeJS', 'Django', 'Flask', 'Thorntail']}
                 >
                 </TechStack>
               </Col>
             </Row>
             </Col>
-            <Col sm={4}>
-              <img src={max} class="img-fluid"></img>
-            </Col>
-
           </Row>
-        
     </section>
   )
 }

@@ -29,16 +29,16 @@ const listProject = [
   {
     title: 'HOST', 
     subtitle: 'Moderation/debriefing App',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. at? Sed fortuna fortis; Nihil opus est exemplis hoc facere longius. At certe gravius. Quid de Pythagora? Sed ea mala virtuti magnitudine obruebantur. Duo Reges: constructio interrete. Tollenda est atque extrahenda radicitus. Verum hoc idem saepe faciamus. Beatum, inquit. Nihil opus est exemplis hoc facere longius.', 
+    description: 'Control panel for a mixed realty serious game. It allows moderators to send messages to participants, trigger virtual events, take notes and generate debriefings (video and PDF). This project integrates a tablet App along with a media server.', 
     technos: ['Python', 'C#', 'Flask', 'Unity', 'SQLite'], 
-    github: 'ff',
+    github: '',
     img: host,
     client: [huglogo, hepialogo],
   },
   {
     title: 'Hike Tracker', 
     subtitle: 'Android App to track hikes and get stats about them',
-    description: 'Amazing', 
+    description: 'This App allows users to track their hikes (path, distance, duration). It is also possible to add points of interest with pictures and receiving alertes when get close to them next time you redo the path.', 
     technos: ['Android', 'Kotlin', 'SQLite'], 
     img: hiketracker,
     github: 'https://github.com/maximehutinet/EventFinder',
@@ -46,7 +46,7 @@ const listProject = [
   {
     title: 'HES-SO.NET', 
     subtitle: 'Location based social network',
-    description: 'Amazing', 
+    description: 'Social network based on location that allows users to post ephemeral messages at certains location. This web app integrates also a chat.', 
     technos: ['Python', 'Django', 'HTML/CSS', 'JavaScript', 'PostgreSQL', 'Docker', 'JWT'], 
     github: 'https://github.com/maximehutinet/HES-SO.NET',
     img: hesso
