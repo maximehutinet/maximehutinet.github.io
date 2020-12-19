@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/maximehutinet.github.io/static/css/main.751d3dd3.chunk.css",
-    "main.js": "/maximehutinet.github.io/static/js/main.09912e88.chunk.js",
-    "main.js.map": "/maximehutinet.github.io/static/js/main.09912e88.chunk.js.map",
-    "runtime-main.js": "/maximehutinet.github.io/static/js/runtime-main.49ef776f.js",
-    "runtime-main.js.map": "/maximehutinet.github.io/static/js/runtime-main.49ef776f.js.map",
-    "static/js/2.925ffdb0.chunk.js": "/maximehutinet.github.io/static/js/2.925ffdb0.chunk.js",
-    "static/js/2.925ffdb0.chunk.js.map": "/maximehutinet.github.io/static/js/2.925ffdb0.chunk.js.map",
-    "static/js/3.ff64b61e.chunk.js": "/maximehutinet.github.io/static/js/3.ff64b61e.chunk.js",
-    "static/js/3.ff64b61e.chunk.js.map": "/maximehutinet.github.io/static/js/3.ff64b61e.chunk.js.map",
+    "main.css": "/maximehutinet.github.io/static/css/main.02179533.chunk.css",
+    "main.js": "/maximehutinet.github.io/static/js/main.18183884.chunk.js",
+    "main.js.map": "/maximehutinet.github.io/static/js/main.18183884.chunk.js.map",
+    "runtime-main.js": "/maximehutinet.github.io/static/js/runtime-main.d13bfdbb.js",
+    "runtime-main.js.map": "/maximehutinet.github.io/static/js/runtime-main.d13bfdbb.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/maximehutinet.github.io/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.2c642619.chunk.js": "/maximehutinet.github.io/static/js/2.2c642619.chunk.js",
+    "static/js/2.2c642619.chunk.js.map": "/maximehutinet.github.io/static/js/2.2c642619.chunk.js.map",
+    "static/js/3.314ca2d7.chunk.js": "/maximehutinet.github.io/static/js/3.314ca2d7.chunk.js",
+    "static/js/3.314ca2d7.chunk.js.map": "/maximehutinet.github.io/static/js/3.314ca2d7.chunk.js.map",
     "index.html": "/maximehutinet.github.io/index.html",
-    "static/css/main.751d3dd3.chunk.css.map": "/maximehutinet.github.io/static/css/main.751d3dd3.chunk.css.map",
-    "static/js/2.925ffdb0.chunk.js.LICENSE.txt": "/maximehutinet.github.io/static/js/2.925ffdb0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/maximehutinet.github.io/static/media/Metropolis-Regular.67a1988d.otf",
-    "static/media/logo.73c7f599.svg": "/maximehutinet.github.io/static/media/logo.73c7f599.svg"
+    "static/css/2.20aa2d7b.chunk.css.map": "/maximehutinet.github.io/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.02179533.chunk.css.map": "/maximehutinet.github.io/static/css/main.02179533.chunk.css.map",
+    "static/js/2.2c642619.chunk.js.LICENSE.txt": "/maximehutinet.github.io/static/js/2.2c642619.chunk.js.LICENSE.txt",
+    "static/media/CV.28a18f7e.pdf": "/maximehutinet.github.io/static/media/CV.28a18f7e.pdf",
+    "static/media/HES-SO.41fa22e6.png": "/maximehutinet.github.io/static/media/HES-SO.41fa22e6.png",
+    "static/media/Max_Round.b11aa296.jpg": "/maximehutinet.github.io/static/media/Max_Round.b11aa296.jpg",
+    "static/media/hepia-logo.89ac38db.png": "/maximehutinet.github.io/static/media/hepia-logo.89ac38db.png",
+    "static/media/hiketracker.11c00d1c.png": "/maximehutinet.github.io/static/media/hiketracker.11c00d1c.png",
+    "static/media/host.492267af.png": "/maximehutinet.github.io/static/media/host.492267af.png",
+    "static/media/hug-logo.0b805640.png": "/maximehutinet.github.io/static/media/hug-logo.0b805640.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49ef776f.js",
-    "static/js/2.925ffdb0.chunk.js",
-    "static/css/main.751d3dd3.chunk.css",
-    "static/js/main.09912e88.chunk.js"
+    "static/js/runtime-main.d13bfdbb.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.2c642619.chunk.js",
+    "static/css/main.02179533.chunk.css",
+    "static/js/main.18183884.chunk.js"
   ]
 }
