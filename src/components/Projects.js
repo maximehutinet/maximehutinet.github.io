@@ -41,7 +41,7 @@ const listProject = [
     description: 'This App allows users to track their hikes (path, distance, duration). It is also possible to add points of interest with pictures and receiving alertes when get close to them next time you redo the path.', 
     technos: ['Android', 'Kotlin', 'SQLite'], 
     img: hiketracker,
-    github: 'https://github.com/maximehutinet/EventFinder',
+    github: 'https://github.com/maximehutinet/HikeTracker',
   },
   {
     title: 'HES-SO.NET', 
