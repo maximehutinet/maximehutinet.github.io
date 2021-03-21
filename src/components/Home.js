@@ -29,7 +29,7 @@ function Home(props) {
                 </Link>
                 </Col>
                 <Col sm={4}>
-                <img src={max} class="img-fluid"></img>
+                    <img src={max} id="img-max" class="img-fluid"></img>
                 </Col>
                 </Row>
             </Container>

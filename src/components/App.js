@@ -16,7 +16,8 @@ function App() {
       <Projects />
       <Contact />
       <Credits 
-        gitrepo={"https://github.com/maximehutinet/maximehutinet.github.io"}
+        gitrepo="https://github.com/maximehutinet/maximehutinet.github.io"
+        linkedin="https://www.linkedin.com/in/maxime-hutinet-41798bb2/"
       />
     </div>
   );
